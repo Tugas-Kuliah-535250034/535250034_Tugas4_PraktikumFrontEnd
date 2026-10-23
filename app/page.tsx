@@ -27,38 +27,43 @@ export default function Home() {
 
       <br />
 
-      <div className="d-flex flex-row gap-5 justify-content-center w-100 text-center">
-        <div className="card col-2 rounded-5 border-3 border-dark">
-          <div className="card-body">
-            <span className={`text-dark ${poppins.className} fw-bold text-center fs-5`}>
-              Restaurants
-            </span>
-            <br />
-            <span className={`text-dark ${geistSans.className} text-center fs-5`}> 100+ </span>
+      <div className="row justify-content-center text-center align-items-stretch g-4 mx-0">
+        <div className="col-12 col-lg-3">
+          <div className="card rounded-5 border-3 border-dark">
+            <div className="card-body">
+              <span className={`text-dark ${poppins.className} fw-bold text-center fs-5`}>
+                Restaurants
+              </span>
+              <br />
+              <span className={`text-dark ${geistSans.className} text-center fs-5`}> 100+ </span>
+            </div>
           </div>
           <br />
         </div>
 
-        <div className="card col-2 rounded-5 border-3 border-dark">
-          <div className="card-body">
-            <span className={`text-dark ${poppins.className} fw-bold text-center fs-5`}>
-              Countries
-            </span>
-            <br />
-            <span className={`text-dark ${geistSans.className} text-center fs-5`}> 20 </span>
+        <div className="col-12 col-lg-3">
+          <div className="card rounded-5 border-3 border-dark">
+            <div className="card-body">
+              <span className={`text-dark ${poppins.className} fw-bold text-center fs-5`}>
+                Countries
+              </span>
+              <br />
+              <span className={`text-dark ${geistSans.className} text-center fs-5`}> 20 </span>
+            </div>
           </div>
           <br />
         </div>
 
-        <div className="card col-2 rounded-5 border-3 border-dark">
-          <div className="card-body">
-            <span className={`text-dark ${poppins.className} fw-bold text-center fs-5`}>
-              Flagship
-            </span>
-            <br />
-            <span className={`text-dark ${geistSans.className} text-center fs-5`}> 3 </span>
+        <div className="col-12 col-lg-3">
+          <div className="card rounded-5 border-3 border-dark">
+            <div className="card-body">
+              <span className={`text-dark ${poppins.className} fw-bold text-center fs-5`}>
+                Flagship
+              </span>
+              <br />
+              <span className={`text-dark ${geistSans.className} text-center fs-5`}> 3 </span>
+            </div>
           </div>
-          <br />
         </div>
       </div>
 
